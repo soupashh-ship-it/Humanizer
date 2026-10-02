@@ -29,8 +29,9 @@ Grab the latest build from **[Releases](https://github.com/soupashh-ship-it/Huma
 
 | Asset | Size | What you get |
 |---|---|---|
-| `Humanizer.exe` | ~41 MB | The full app, fully offline. **Recommended.** |
-| `Humanizer-Neural.exe` | ~450 MB | Same app with the T5 + MiniLM neural engine baked in. |
+| `Humanizer.exe` | ~41 MB | The full app, fully offline, with PDF/Word reading bundled. **Recommended.** |
+
+Prefer the neural build? It is ~450 MB because it bundles torch and the models, so it is not attached here — run `build_exe_neural.bat` from a clone to produce `dist\Humanizer-Neural.exe`, or use the in-app **Neural engine** toggle after `pip install -r requirements_optional.txt`.
 
 Windows may show a SmartScreen warning for a freshly uploaded binary — the file is unsigned. Choose **More info → Run anyway** if you trust the source.
 
