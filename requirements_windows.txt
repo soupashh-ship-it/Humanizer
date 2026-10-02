@@ -1,0 +1,10 @@
+# Windows desktop app dependencies
+# Tkinter is included with standard Windows Python.
+# Pillow is required for high-resolution anti-aliasing and image generation.
+Pillow>=10.0.0
+# Optional, for the Attach document feature:
+#   pypdf        - read PDF documents  (needed to attach a PDF)
+#   python-docx  - read Word documents (needed to attach a .docx)
+# Writing a PDF needs neither: the app ships its own PDF writer.
+pypdf>=3.9.0
+python-docx>=1.0.0

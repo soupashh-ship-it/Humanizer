@@ -1,0 +1,10 @@
+# Optional neural upgrade - same models as the HuggingFace Space
+# (conversantech/humanizer-ai): T5-small paraphrasing + MiniLM similarity.
+# The app works fully offline WITHOUT these (rule-based fallbacks).
+#
+# Install IN THIS ORDER (Windows):
+#   1. python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+#      (CPU-only torch, ~200 MB instead of the 2.5 GB CUDA build)
+#   2. python -m pip install -r requirements_optional.txt
+# Models (~400 MB) download automatically on first neural run, then are cached.
+sentence-transformers

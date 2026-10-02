@@ -1,0 +1,8 @@
+# Normalise line endings: the repo stores LF, Windows checkouts get CRLF.
+* text=auto
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.bat   text eol=crlf
+*.png   binary
